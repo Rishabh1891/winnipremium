@@ -71,6 +71,7 @@ var swiper = new Swiper(".review-slider", {
     autoplay: {
         delay: 2500,
         disableOnInteraction: false,
+        pauseOnMouseEnter: true,
     },
     breakpoints: {
         640: {
@@ -159,12 +160,4 @@ function geoLocationError(error) {
   };
   alert("Error: " + errors[error.code]);
 }
-/*checking networks*/
-if(navigator.onLine){
-  console.log("online");
- } else if(!navigator.onLine){
-  document.write("At this time i'm gonna ask you to turn on your Network");
-}
-else{
-  window.confirm("Your network is interupted.")
-};
+//offers manupulating
