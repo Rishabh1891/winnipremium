@@ -990,6 +990,8 @@ width: fit-content;
 .cakes{
   width: 100%;
   background: #ffddac;
+  display: grid;
+  place-content: center;
 }
 
 .gall{
@@ -997,8 +999,7 @@ width: fit-content;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  position:relative;
-  left: 40em;
+
   width:300px;
   height:200px;
   transform-style:preserve-3d;
@@ -1168,8 +1169,6 @@ width: fit-content;
     padding:2rem;
   }
   .gall{
-    position: relative;
-    left: 10em;
     width: 200px;
     height: 100px;
   }
@@ -1193,8 +1192,6 @@ width: fit-content;
 
   }
   .gall{
-    position: relative;
-    left: 10em;
     width: 200px;
     height: 100px;
   }
@@ -1242,8 +1239,6 @@ width: fit-content;
     overflow-x: hidden;
   }
   .gall{
-    position: relative;
-    left: 10em;
     width: 150px;
     height: 100px;
   }
